@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: #f7b600;
+}
+
+.header__title {
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #4e4e4e;
+}
+
+.title-2part {
+    color: white;
+}
+
+.menu {
+    margin: 10px 0;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link {
+    padding: 10px;
+    color: white;
+}
+
+.menu__link:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.main {
+    flex: 70;
+    padding: 10px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post__title {
+    color: #f7b600;
+}
+
+.post__date {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.post__btn {
+    color: #f7b600;
+}
+
+.lateral {
+    flex: 30;
+    margin-left: 40px;
+}
+
+.lateral__widget {
+    margin-bottom: 40px;
+}
+
+.widget__title {
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    color: #565656;
+    background-color: #CCC;
+}
+
+.posts__link {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.categorias__link {
+    margin-left: 10px;
+    color: #f7b600;
+}
+
+.footer {
+    max-width: 900px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #CCC;
+}
